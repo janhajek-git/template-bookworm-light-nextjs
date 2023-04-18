@@ -70,6 +70,7 @@ const PostSingle = ({ post, posts, authors, slug }) => {
                 width="1000"
                 alt={title}
                 className="rounded-lg"
+                loading="eager"
               />
             )}
             <div className="content mb-16 text-left">
